@@ -1,0 +1,13 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'root'
+
+includeFlat 'utilities'
+includeFlat 'exception-handler'
+includeFlat 'discovery-server'
+includeFlat 'enquiry'
+includeFlat 'api-gateway'
+includeFlat 'registration'

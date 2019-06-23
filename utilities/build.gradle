@@ -1,0 +1,9 @@
+group = 'com.apandiyan.util'
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}

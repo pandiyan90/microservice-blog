@@ -1,0 +1,12 @@
+group = 'com.apandiyan.exception'
+
+bootJar {
+	enabled = false
+}
+
+jar {
+	enabled = true
+}
+
+dependencies {
+}

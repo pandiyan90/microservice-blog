@@ -1,0 +1,10 @@
+group = 'com.apandiyan.enquiry'
+
+dependencies {
+	compile project(':exception-handler')
+	compile project(':utilities')
+	
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

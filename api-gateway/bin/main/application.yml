@@ -1,0 +1,24 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: api-gateway
+    
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:9000/eureka/
+
+zuul:
+  routes:
+    enquiry:
+      path: /api/enquiry/**
+      service-id: enquiry
+      strip-prefix: false
+    
+    registration:
+      path: /api/registration/**
+      service-id: registration
+      strip-prefix: false
+      
