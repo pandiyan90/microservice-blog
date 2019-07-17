@@ -30,3 +30,11 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+### Microservice Blog Projects ###
+utilities/bin/
+exception-handler/bin/
+discovery-server/bin/
+enquiry/bin/
+api-gateway/bin/
+registration/bin/

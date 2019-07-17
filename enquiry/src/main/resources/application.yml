@@ -11,3 +11,16 @@ eureka:
 spring:
   application:
     name: enquiry
+    
+  data:
+    mongodb:
+      database: building
+      host: localhost
+      username: builder
+      password: build
+      port: 27017
+      authentication-database: building
+      
+logging:
+  level:
+    org.springframework.data: info

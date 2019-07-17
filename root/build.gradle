@@ -28,8 +28,10 @@ subprojects {
 	}
 	
 	dependencies {
-		compile 'org.springframework.boot:spring-boot-starter-web'
-		compile 'org.springframework.boot:spring-boot-starter-test'
+		implementation 'org.springframework.boot:spring-boot-starter-web'
+		implementation 'org.springframework.boot:spring-boot-starter-test'
+		implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+		implementation 'io.springfox:springfox-swagger2:2.9.2'
 	}
 	
 	dependencyManagement {
@@ -37,10 +39,4 @@ subprojects {
 			mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 		}
 	}
-
-/*	buildScan {
-		termsOfServiceUrl = "https://gradle.com/terms-of-service";
-		termsOfServiceAgree = "yes" 
-	}
-*/
 }
